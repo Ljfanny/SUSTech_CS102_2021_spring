@@ -1,0 +1,91 @@
+9
+9
+false false false 0 0 true 0 false
+false false false 0 0 true 0 false
+false false false 0 0 true 0 false
+false false true -9 0 true 0 false
+false false true -9 0 true 0 false
+false false false 0 0 true 0 false
+false false false 0 0 true 0 false
+false false false 0 0 true 0 false
+false false false 0 0 true 0 false
+false false false 0 0 true 0 false
+false false true -13 0 true 0 false
+true false false 3 3 false 0 false
+true false false 2 2 false 0 false
+true false false 2 2 false 0 false
+true false false 2 2 false 0 false
+false false false 0 0 true 0 false
+false false false 0 0 true 0 false
+false false false 0 0 true 0 false
+true true false 0 0 true 0 false
+true true true -17 0 true 0 false
+true false false 2 2 false 0 false
+true false false 0 0 false 0 false
+true false false 0 0 false 0 false
+true false false 1 1 false 0 false
+false false true -3 0 true 0 false
+false false false 0 0 true 0 false
+false false false 0 0 true 0 false
+true false false 1 1 false 0 false
+true false false 1 1 false 0 false
+true false false 1 1 false 0 false
+true false false 1 1 false 0 false
+true false false 1 1 false 0 false
+true false false 2 2 false 0 false
+true false false 1 1 false 0 false
+true false false 1 1 false 0 false
+false false false 0 0 true 0 false
+true false false 0 0 false 0 false
+true false false 0 0 false 0 false
+true false false 0 0 false 0 false
+true false false 1 1 false 0 false
+true true true -6 0 true 0 false
+true false false 1 1 false 0 false
+true false false 0 0 false 0 false
+true false false 1 1 false 0 false
+true false false 1 1 false 0 false
+true false false 1 1 false 0 false
+true false false 1 1 false 0 false
+true false false 1 1 false 0 false
+true false false 1 1 false 0 false
+true false false 1 1 false 0 false
+true false false 1 1 false 0 false
+true false false 0 0 false 0 false
+true false false 1 1 false 0 false
+true true true -16 0 true 0 false
+true true false 0 0 true 0 false
+true true true -3 0 true 0 false
+true true false 0 0 true 0 false
+true true false 0 0 true 0 false
+true false false 1 1 false 0 false
+true false false 0 0 false 0 false
+true false false 0 0 false 0 false
+true false false 1 1 false 0 false
+true false false 1 1 false 0 false
+false false false 0 0 true 0 false
+true true false 0 0 true 0 false
+false false true -14 0 true 0 false
+true true true -16 0 true 0 false
+true false false 1 1 false 0 false
+true false false 0 0 false 0 false
+true false false 0 0 false 0 false
+true false false 0 0 false 0 false
+true false false 0 0 false 0 false
+false false false 0 0 true 0 false
+false false false 0 0 true 0 false
+false false false 0 0 true 0 false
+true false false 2 2 false 0 false
+true false false 1 1 false 0 false
+true false false 0 0 false 0 false
+true false false 0 0 false 0 false
+true false false 0 0 false 0 false
+true false false 0 0 false 0 false
+5
+5
+0
+0
+0
+0
+1
+5

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="identifier [2]">
+  <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.19">
+    <root id="1">
+      <ServerVersion>3.34.0</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="main">
+      <Current>1</Current>
+    </schema>
+    <collation id="3" parent="1" name="BINARY"/>
+    <collation id="4" parent="1" name="NOCASE"/>
+    <collation id="5" parent="1" name="RTRIM"/>
+    <table id="6" parent="2" name="grade"/>
+    <table id="7" parent="2" name="info"/>
+    <table id="8" parent="2" name="person"/>
+    <table id="9" parent="2" name="sqlite_master">
+      <System>1</System>
+    </table>
+    <table id="10" parent="2" name="users"/>
+    <column id="11" parent="6" name="f_user_id">
+      <Position>1</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="12" parent="6" name="grade_time">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="13" parent="6" name="difficulty">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="14" parent="7" name="uid">
+      <Position>1</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="15" parent="7" name="player_easy">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="16" parent="7" name="player_middle">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="17" parent="7" name="player_difficult">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="18" parent="7" name="ai_easy">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="19" parent="7" name="ai_middle">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="20" parent="7" name="ai_difficult">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="21" parent="7" name="person_easy">
+      <Position>8</Position>
+      <DataType>int|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="22" parent="7" name="person_middle">
+      <Position>9</Position>
+      <DataType>int|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="23" parent="7" name="person_difficult">
+      <Position>10</Position>
+      <DataType>int|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <index id="24" parent="7" name="sqlite_autoindex_info_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>uid</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="25" parent="7">
+      <ColNames>uid</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_info_1</UnderlyingIndexName>
+    </key>
+    <column id="26" parent="8" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+    </column>
+    <column id="27" parent="8" name="name">
+      <Position>2</Position>
+      <DataType>string|0s</DataType>
+    </column>
+    <column id="28" parent="9" name="type">
+      <Position>1</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="29" parent="9" name="name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="30" parent="9" name="tbl_name">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="31" parent="9" name="rootpage">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="32" parent="9" name="sql">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="33" parent="10" name="user_id">
+      <Position>1</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="34" parent="10" name="password">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="35" parent="10" name="name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+  </database-model>
+</dataSource>
